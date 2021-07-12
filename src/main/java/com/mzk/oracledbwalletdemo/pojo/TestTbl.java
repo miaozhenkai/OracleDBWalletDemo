@@ -1,4 +1,4 @@
-package com.mzk.orclcedbwalletdemo.pojo;
+package com.mzk.oracledbwalletdemo.pojo;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

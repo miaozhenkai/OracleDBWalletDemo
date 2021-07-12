@@ -1,6 +1,6 @@
-package com.mzk.orclcedbwalletdemo.mapper;
+package com.mzk.oracledbwalletdemo.mapper;
 
-import com.mzk.orclcedbwalletdemo.pojo.TestTbl;
+import com.mzk.oracledbwalletdemo.pojo.TestTbl;
 import java.math.BigDecimal;
 import org.apache.ibatis.annotations.Mapper;
 

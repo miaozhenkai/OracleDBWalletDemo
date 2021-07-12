@@ -1,10 +1,10 @@
-package com.mzk.orclcedbwalletdemo;
+package com.mzk.oracledbwalletdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrclceDbWalletDemoApplicationTests {
+class OracleDbWalletDemoApplicationTests {
 
     @Test
     void contextLoads() {

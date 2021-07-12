@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mzk.orclcedbwalletdemo.mapper.TestTblMapper">
-  <resultMap id="BaseResultMap" type="com.mzk.orclcedbwalletdemo.pojo.TestTbl">
+<mapper namespace="com.mzk.oracledbwalletdemo.mapper.TestTblMapper">
+  <resultMap id="BaseResultMap" type="com.mzk.oracledbwalletdemo.pojo.TestTbl">
     <!--@mbg.generated-->
     <!--@Table TEST_TBL-->
     <id column="ID" jdbcType="DECIMAL" property="id" />
@@ -23,12 +23,12 @@
     delete from TEST_TBL
     where ID = #{id,jdbcType=DECIMAL}
   </delete>
-  <insert id="insert" keyColumn="ID" keyProperty="id" parameterType="com.mzk.orclcedbwalletdemo.pojo.TestTbl" useGeneratedKeys="true">
+  <insert id="insert" keyColumn="ID" keyProperty="id" parameterType="com.mzk.oracledbwalletdemo.pojo.TestTbl" useGeneratedKeys="true">
     <!--@mbg.generated-->
     insert into TEST_TBL ("NAME")
     values (#{name,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" keyColumn="ID" keyProperty="id" parameterType="com.mzk.orclcedbwalletdemo.pojo.TestTbl" useGeneratedKeys="true">
+  <insert id="insertSelective" keyColumn="ID" keyProperty="id" parameterType="com.mzk.oracledbwalletdemo.pojo.TestTbl" useGeneratedKeys="true">
     <!--@mbg.generated-->
     insert into TEST_TBL
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -42,7 +42,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.mzk.orclcedbwalletdemo.pojo.TestTbl">
+  <update id="updateByPrimaryKeySelective" parameterType="com.mzk.oracledbwalletdemo.pojo.TestTbl">
     <!--@mbg.generated-->
     update TEST_TBL
     <set>
@@ -52,7 +52,7 @@
     </set>
     where ID = #{id,jdbcType=DECIMAL}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.mzk.orclcedbwalletdemo.pojo.TestTbl">
+  <update id="updateByPrimaryKey" parameterType="com.mzk.oracledbwalletdemo.pojo.TestTbl">
     <!--@mbg.generated-->
     update TEST_TBL
     set "NAME" = #{name,jdbcType=VARCHAR}

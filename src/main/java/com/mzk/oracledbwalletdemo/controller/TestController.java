@@ -1,7 +1,7 @@
-package com.mzk.orclcedbwalletdemo.controller;
+package com.mzk.oracledbwalletdemo.controller;
 
-import com.mzk.orclcedbwalletdemo.mapper.TestTblMapper;
-import com.mzk.orclcedbwalletdemo.pojo.TestTbl;
+import com.mzk.oracledbwalletdemo.mapper.TestTblMapper;
+import com.mzk.oracledbwalletdemo.pojo.TestTbl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestBody;
